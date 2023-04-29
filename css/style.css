@@ -65,7 +65,7 @@
   margin-bottom: -50px;
 }
 
-.call_me > p {
+.call_me > a {
   font-weight: 500;
   text-decoration: none;
   color: #202020;
