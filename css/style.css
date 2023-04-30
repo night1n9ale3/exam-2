@@ -57,6 +57,10 @@
   text-decoration: underline;
 }
 
+.bi-list {
+  display: none;
+}
+
 .call_me {
   margin-top: 50px;
   margin-right: -50px;
@@ -412,15 +416,18 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
   .nav_logo-text {
-    margin-left: -220px;
+    margin-left: -250px;
   }
   .nav_logo-text > p {
     margin-right: -110px;
   }
   .background {
-    width: 400px;
-    margin-top: -165px;
+    width: 350px;
+    margin-top: -209px;
     margin-left: -180px;
   }
   .nav_menu {
@@ -444,9 +451,112 @@
   }
   .consultation-text {
     margin-bottom: -650px;
-    margin-left: -150px;
+    margin-left: -300px;
+  }
+  .consultation-card {
+    width: 350px;
+  }
+  .line {
+    width: 350px;
+    margin-left: 0px;
   }
   .consultation-card {
     margin-left: -31px;
+  }
+  .main-cards {
+    margin-left: 50px;
+    margin-top: 250px;
+  }
+  .card {
+    width: 200px;
+    height: 150px;
+  }
+  .card-img > img {
+    width: 40px;
+    height: 40px;
+  }
+  .restangle {
+    width: 13px;
+    height: 40px;
+  }
+  .card-text {
+    margin-left: 25px;
+  }
+  .card-text > b {
+    font-size: 12px;
+  }
+  .card-text > p {
+    margin-top: 10px;
+    font-size: 10px;
+    width: 130px;
+  }
+  .catalog-title {
+    margin-left: -300px;
+  }
+  .catalog-title > img {
+    margin-left: -600px;
+  }
+  .catalog-title > h2 {
+    font-size: 25px;
+  }
+  .catalog-cards {
+    margin-right: 400px;
+  }
+  .catalog-card > img {
+    width: 200px;
+    height: 200px;
+  }
+  .catalog-card-text {
+    width: 200px;
+  }
+  .catalog-card-text > h3 {
+    font-size: 15px;
+  }
+  .catalog-card-text > p {
+    font-size: 13px;
+  }
+  .order-3d-title {
+    margin-left: -190px;
+  }
+  .order-3d-form {
+    margin-left: -500px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    max-width: 425px;
+  }
+  .background {
+    width: 100px;
+    margin-left: -222px;
+  }
+  .nav_logo-text > img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: -150px;
+    margin-left: -80px;
+  }
+  .nav_logo-text > p {
+    display: none;
+  }
+  .nav_menu > a {
+    display: none;
+  }
+  .call_me {
+    display: none;
+  }
+  .bi-solid {
+    display: block;
+    margin-top: -35px;
+  }
+  .nav_menu {
+    margin-right: -200px;
+  }
+  .main-img {
+    width: 200px;
+    margin-left: -13px;
+  }
+  .consultation-card {
+    margin-top: 400px;
   }
 }/*# sourceMappingURL=style.css.map */
