@@ -50,10 +50,12 @@
 }
 
 .nav_menu>a:hover {
+    cursor: pointer;
     text-shadow: 2px 2px 5px #000000;
 }
 
-.nav_menu>a:focus {
+.nav_menu>a:active {
+    cursor: pointer;
     color: #000000;
     text-decoration: underline;
 }
@@ -722,7 +724,8 @@
 
 .footer {
     margin-top: 100px;
-    height: 200px;
+    width: 1350px;
+    height: 220px;
     background: #F4F4F4;
 }
 
@@ -793,10 +796,12 @@
 }
 
 .footer-menu-part-2>a:hover {
+    cursor: pointer;
     text-shadow: 1px 2px 5px #202020;
 }
 
-.footer-menu-part-2>a:focus {
+.footer-menu-part-2>a:active {
+    cursor: pointer;
     text-decoration: underline;
 }
 
@@ -826,23 +831,29 @@
     margin-top: 60px;
 }
 
+.footer-part-2>a {
+    margin-left: 80px;
+    margin-right: 90px;
+    color: #8b8b8b;
+    text-decoration: none;
+}
 
+.footer-part-2>a:hover {
+    cursor: pointer;
+    text-shadow: 1px 2px 5px #202020;
+}
 
+.footer-part-2>a:active {
+    cursor: pointer;
+    text-shadow: none;
+    text-decoration: underline;
+    color: #000;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.social-media {
+    margin-top: -20px;
+    margin-left: 1000px;
+}
 
 
 
@@ -878,6 +889,14 @@
     .catalog-cards {
         margin-left: 350px;
         grid-gap: 20px;
+    }
+    
+    .about-company {
+        margin-left: 250px;
+    }
+
+    .questions {
+        margin-left: 250px;
     }
 }
 
@@ -1175,6 +1194,10 @@
         padding: 10px 30px;
     }
 
+    .order-3d {
+        height: 800px;
+    }
+
     .order-3d-title>h1 {
         width: 400px;
         margin-left: -70px;
@@ -1196,5 +1219,55 @@
         display: grid;
         margin-left: -900px;
         text-align: center;
+    }
+
+    .about-company {
+        display: grid;
+        columns: 1;
+    }
+
+    .about-company-text {
+        margin-left: -190px;
+    }
+
+    .about-company-menu {
+        margin-top: 50px;
+        margin-left: -180px;
+    }
+
+    .select {
+        width: 200px;
+    }
+
+    .about-company-img {
+        margin-left: -200px;
+    }
+
+    .project {
+        width: 480px;
+        margin-left: -15px;
+    }
+
+    .p-21 {
+        margin-top: 450px;
+    }
+
+    .project-img>img {
+        width: 300px;
+        height: 450px;
+        margin-top: 10px;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .restangles {
+        margin-left: 150px;
+    }
+
+    .background-2 {
+        width: 150px;
+        margin-left: 100px;
     }
 }
